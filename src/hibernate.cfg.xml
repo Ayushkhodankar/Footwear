@@ -12,9 +12,11 @@
         <property name="connection.username">root</property>  
         <property name="connection.password">abc123</property>  
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+      
     <mapping class="model.User"/>
    <mapping class="model.Category"/> 
    <mapping class="model.Issue"/> 
     </session-factory>  
     
-</hibernate-configuration>     
+</hibernate-configuration>    
+
